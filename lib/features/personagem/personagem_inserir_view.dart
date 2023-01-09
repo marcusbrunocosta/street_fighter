@@ -20,7 +20,7 @@ class _PersonagemInserirViewState extends State<PersonagemInserirView> {
   final TextEditingController _dataNascimento = TextEditingController(text: '');
   final TextEditingController _altura = TextEditingController(text: '');
   final TextEditingController _peso = TextEditingController(text: '');
-  TextEditingController _tipoSanguineo = TextEditingController(text: '');
+  final TextEditingController _tipoSanguineo = TextEditingController(text: '-');
 
   @override
   void initState() {
