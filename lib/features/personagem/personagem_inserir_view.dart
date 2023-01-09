@@ -95,9 +95,9 @@ class _PersonagemInserirViewState extends State<PersonagemInserirView> {
                         base64Decode(imagemPersonagem),
                         height: 200,
                       )),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Row(children: [
-              Text('Nome'),
+              const Text('Nome'),
               SizedBox(
                 width: 10,
               ),
