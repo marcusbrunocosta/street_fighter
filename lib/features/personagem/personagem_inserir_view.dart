@@ -16,10 +16,10 @@ class _PersonagemInserirViewState extends State<PersonagemInserirView> {
   late SharedPreferences prefs;
   String imagemPersonagem = '';
   List<Map<String, dynamic>> personagens = [];
-  TextEditingController _nome = TextEditingController(text: '');
-  TextEditingController _dataNascimento = TextEditingController(text: '');
-  TextEditingController _altura = TextEditingController(text: '');
-  TextEditingController _peso = TextEditingController(text: '');
+  final TextEditingController _nome = TextEditingController(text: '');
+  final TextEditingController _dataNascimento = TextEditingController(text: '');
+  final TextEditingController _altura = TextEditingController(text: '');
+  final TextEditingController _peso = TextEditingController(text: '');
   TextEditingController _tipoSanguineo = TextEditingController(text: '');
 
   @override
